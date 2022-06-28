@@ -1,0 +1,7 @@
+-How do I get padding to cover the margins?
+-Changing the color of link text?
+- Making a box "square"?
+- Making div-boxes adjust to amount of boxes?
+- How to you put google fonts into document?
+- How do you make text fit into a div with going down a line?
+- How do you make things relative to their parent?

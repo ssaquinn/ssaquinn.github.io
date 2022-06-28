@@ -1,0 +1,104 @@
+/* /* CSS HEX 
+--dark-turquoise: #25ced1ff;
+--white: #ffffffff;
+--champagne-pink: #fceadeff;
+--coral: #ff8a5bff;
+--paradise-pink: #ea526fff; */
+
+body{
+    background-color: whitesmoke;
+    margin: 0%;
+}
+
+.headerMenu {
+    background-color: #fceadeff;
+    margin: 0px;
+    text-align: center;
+    padding: 8vh;
+}
+
+.headerDivide {
+    background-color: #343a40;
+    margin: 0px;
+    text-align: left;
+    padding: 1vh;
+    color: #fceadeff;
+    font-family: 'Dosis';
+    font-size: 100%;
+
+}
+
+.headerDivideMenu{
+    background-color: #343a40;
+    margin: 0px;
+    text-align: center;
+    padding: 1vh;
+    color: #fceadeff;
+    font-family: 'Dosis';
+    font-size: 100%;
+}
+
+.alignHeaderLinks
+{
+    display:flex;
+}
+
+.headerLinkFormat{
+    text-align:center;
+    width: 25%;
+    
+}
+
+.headerMenuFont{
+    color: #fceadeff;
+    font-family: 'Dosis';
+    font-size: 100%;
+    text-decoration: none;
+}
+
+.alignMainLinks
+{
+    display:flex;
+}
+
+.linkWidth
+{
+    text-align: center;
+    width: 50%;
+    margin: 3%;
+padding: 13vh;
+
+}
+
+.linkText
+{
+    color: white;
+    font-family: 'Alfa Slab One';
+    text-decoration: none;
+    font-size: 300%;
+    text-transform: capitalize;
+}
+
+#mainHeader{
+    text-decoration: none;
+    color: #343a40;
+    font-family: 'Alfa Slab One';
+    font-size: 200%;
+}
+
+#boxOne{
+    background-color: #25ced1ff;
+    
+}
+
+#boxTwo{
+    background-color: #f4e789;
+}
+
+#boxThree{
+    background-color: #ff8a5bff;
+}
+
+#boxFour{
+    background-color: #ea526fff;;
+}
