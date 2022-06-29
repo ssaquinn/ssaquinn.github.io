@@ -5,13 +5,17 @@
 --coral: #ff8a5bff;
 --paradise-pink: #ea526fff; */
 
+
+
+/* Full size */
+
 body{
     background-color: whitesmoke;
     margin: 0%;
 }
 
 .headerMenu {
-    background-color: #fceadeff;
+    background-color: whitesmoke;
     margin: 0px;
     text-align: center;
     padding: 8vh;
@@ -128,4 +132,31 @@ padding: 5vh;
 
 #boxFive{
     background-color: #343a40;
+}
+
+/* Phone dimensions - 320-576px  - 320x480*/
+
+@media only screen and (max-width: 576px) {
+
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+    }
+
+:root {
+    min-width: 100vw;
+}
+
+html {
+    min-width: 100vw;
+}
+
+body {
+    min-width: 100vw;
+}
+
+.paragraphText{
+    max-width: 100vw;
+}
 }
