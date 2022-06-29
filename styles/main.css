@@ -70,6 +70,15 @@ padding: 13vh;
 
 }
 
+.titleWidth
+{
+    text-align: center;
+    width: 15%;
+    margin: 3%;
+padding: 5vh;
+
+}
+
 .linkText
 {
     color: white;
@@ -77,6 +86,20 @@ padding: 13vh;
     text-decoration: none;
     font-size: 300%;
     text-transform: capitalize;
+}
+
+.titleText
+{
+    color: white;
+    font-family: 'Alfa Slab One';
+    text-decoration: none;
+    font-size: 200%;
+    text-transform: capitalize;
+}
+.paragraphText{
+    color: #343a40;
+    font-family: 'Alfa Slab One';
+    font-size: 100%;
 }
 
 #mainHeader{
@@ -101,4 +124,8 @@ padding: 13vh;
 
 #boxFour{
     background-color: #ea526fff;;
+}
+
+#boxFive{
+    background-color: #343a40;
 }
