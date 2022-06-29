@@ -42,20 +42,154 @@
       </div>
     </header>
     <main>
-      <div class="alignMainLinks">
-        <div class="linkWidth" id="boxOne">
-          <a class="linkText" href="aboutMe.html">Example One</a>
+      <div class="alignMainLinks alignMainNone">
+        <div class="titleWidth" id="boxOne">
+          <h2 class="titleText">The Position Property</h2>
         </div>
-        <div class="linkWidth" id="boxTwo">
-          <a class="linkText" href="sprintBlogs.html">Example Two</a>
+        <div class="paragraphText">
+          <h3 style="text-align: center">The Position Property</h3>
+          <p>
+            The position property is used to orientate elements on the page.
+            There are five elements associated with the position
+            property;static, relative, absolute, fixed, and sticky.
+          </p>
+          <img src="blog/cssBlog/positioning.png" alt="Types of positions" />
+          <h4>Static</h4>
+          <p>
+            This is the default element. Block elements are stacked on top of
+            each other, and inline elements are place beside each other in
+            sequential order.
+          </p>
+          <figure>
+            <img
+              src="blog/cssBlog/static.jpg"
+              alt="Static position"
+              width="700px"
+            />
+            <figcaption>
+              Static: The Two objects are stacked on top of each other.
+            </figcaption>
+          </figure>
+
+          <h4>Relative</h4>
+          <p>
+            This means “relative to itself” and will only have an effect if a
+            related attribute is applied to it. The related attributes are; top,
+            left, bottom, and right. Once the attribute is applied, the element
+            will move in relation to its original (static) position on the page.
+            This can be very valuable for tweaking the exact alignment of an
+            element without having to consider the overall relativity of the
+            page.
+          </p>
+          <p>
+            It works by adding the value to the given attribute direction. i.e.
+            Setting a value to the left will cause the element to move to the
+            right. Relative positioned elements can however, move over top of
+            statically positioned elements, so it is something to be aware of.
+          </p>
+          <figure>
+            <img
+              src="blog/cssBlog/relative.jpg"
+              alt="Relative position"
+              width="700px"
+            />
+            <figcaption>
+              Relative: The blue object remains inline with the standard
+              positioning. The yellow object has been moved down the page 100px
+              relative to its default position on the page.
+            </figcaption>
+          </figure>
+
+          <h4>Absolute</h4>
+          <p>
+            Absolute positioned elements are relative to the next parent element
+            that has relative or absolute positioning. If there aren’t any, they
+            are relative to the to the html element. It also uses the
+            positioning attributes top, bottom, left and right. Absolute
+            positioning removes an element from being affected by document flow
+            – the position of other elements on the page.
+          </p>
+          <figure>
+            <img
+              src="blog/cssBlog/absolute.jpg"
+              alt="Absolute position"
+              width="700px"
+            />
+            <figcaption>
+              Absolute: The yellow object has been removed from the default
+              positioning of the page. It is no longer affected by other objects
+              on the page, nor are other objects affected by it. The yellow
+              object moves 80px from the top of its parent element (with
+              absolute positioning), in this case the html element. The blue
+              object moves into the default static position as if the yellow
+              object wasn’t there.
+            </figcaption>
+          </figure>
+
+          <h4>Fixed</h4>
+          <p>
+            An element with a fixed position stays in the same place relative to
+            the viewport and sits overtop the other elements. This means even if
+            you scroll across or down the page, the element will stay visible
+            and fixed on the same position of the screen, while viewport moves
+            over the rest of the document. An issue with this positioning, is
+            that it is possible to cover up important areas of documents with
+            the fixed element, so it is something to be aware of.
+          </p>
+          <h4>Sticky</h4>
+          <p>
+            An element with sticky positioning acts as a static element until it
+            has been scrolled past, then it will act as a fixed element if the
+            parent element has space.
+          </p>
+
+          <h5>Source Material</h5>
+          <a
+            target="_blank"
+            href="https://css-tricks.com/absolute-relative-fixed-positioining-how-do-they-differ/"
+            >css-tricks.com</a
+          >
+          <a
+            target="_blank"
+            href="https://codecrunch.org/css-position-23ad6d0cc5f9"
+            >codecrunch.org</a
+          >
+          <a target="_blank" href="https://codepen.io/">codepen.io</a>
         </div>
       </div>
-      <div class="alignMainLinks">
-        <div class="linkWidth" id="boxThree">
-          <a class="linkText" href="personalDevelopment.html">Example Three</a>
+
+      <div class="alignMainLinks alignMainNone">
+        <div class="titleWidth" id="boxTwo">
+          <h2 class="titleText">Example</h2>
         </div>
-        <div class="linkWidth" id="boxFour">
-          <a class="linkText" href="technicalBlogs.html">Example Four</a>
+        <div class="paragraphText"></div>
+      </div>
+      <!-- break-->
+      <!-- break-->
+      <div class="alignMainLinks alignMainNone">
+        <div class="titleWidth" id="boxThree">
+          <h2 class="titleText">Example</h2>
+        </div>
+        <div class="paragraphText">
+          <p>Example</p>
+        </div>
+      </div>
+      <!-- break-->
+      <!-- break-->
+      <div class="alignMainLinks alignMainNone">
+        <div class="titleWidth" id="boxFour">
+          <h2 class="titleText">Example</h2>
+        </div>
+        <div class="paragraphText">
+          <p>Example</p>
+        </div>
+      </div>
+      <div class="alignMainLinks alignMainNone">
+        <div class="titleWidth" id="boxFive">
+          <h2 class="titleText">Example</h2>
+        </div>
+        <div class="paragraphText">
+          <p>Example</p>
         </div>
       </div>
     </main>

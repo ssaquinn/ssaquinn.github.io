@@ -9,6 +9,7 @@
 
 /* Full size */
 
+
 body{
     background-color: whitesmoke;
     margin: 0%;
@@ -113,6 +114,8 @@ padding: 5vh;
     font-size: 200%;
 }
 
+
+
 #boxOne{
     background-color: #25ced1ff;
     
@@ -132,6 +135,42 @@ padding: 5vh;
 
 #boxFive{
     background-color: #343a40;
+}
+/* Tablet dimension - 768 X 1024*/
+@media only screen and (max-width: 1199px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+            }
+        
+        :root {
+            min-width: 100vw;
+        }
+        
+        html {
+            min-width: 100vw;
+        }
+        
+        body {
+            min-width: 100vw;
+        }
+        .linkWidth
+        {
+            text-align: center;
+            width: 50%;
+            margin: 3%;
+        padding: 5vw;
+        
+}
+
+.linkText
+{
+    color: white;
+    font-family: 'Alfa Slab One';
+    text-decoration: none;
+    font-size: 5vw;
+    text-transform: capitalize;
 }
 
 /* Phone dimensions - 320-576px  - 320x480*/
@@ -159,4 +198,35 @@ body {
 .paragraphText{
     max-width: 100vw;
 }
+
+.linkText
+{
+    color: white;
+    font-family: 'Alfa Slab One';
+    text-decoration: none;
+    font-size: 5vw;
+    text-transform: capitalize;
+}
+
+.linkWidth
+{
+    text-align: center;
+    width: 50%;
+    margin: 3%;
+padding: 5vw;
+
+}
+.alignMainNone
+{
+    display:inline;
+}
+
+}
+.titleWidth
+{
+    text-align: center;
+    width: 90%;
+    margin: 3%;
+padding: 5vh;
+
 }
