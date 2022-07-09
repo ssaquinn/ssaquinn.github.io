@@ -160,9 +160,178 @@
 
       <div class="alignMainLinks alignMainNone">
         <div class="titleWidth" id="boxTwo">
-          <h2 class="titleText">Example</h2>
+          <h2 class="titleText">JavaScript Basics</h2>
         </div>
-        <div class="paragraphText"></div>
+        <div class="paragraphText">
+          <h3>HTML, CSS, & JavaScript</h3>
+          <p>
+            These are the three main code languages, or components of a website.
+            They can be described by relating them to components of a building:
+          </p>
+
+          <p>
+            HTML can be seen as the framework, or structural component of the
+            web page, or the structure of a building in relation to our analogy.
+            It’s a language that organizes the features of page into sections,
+            just like a building is divided into different rooms. HTML does this
+            by dividing the content into “blocks” which are seen in ‘tags’, such
+            as div &lt;div&gt;, paragraph &lt;p&gt; or input &lt;input&gt; tags.
+            It also contains all the content of the page such as text, images,
+            videos and links. The content of the page could also be linked to
+            the different features of the building, such as sinks, toilets,
+            stairs, windows, although they are not the main structure of a
+            building they are still a structural component in the same way text
+            and images are.
+          </p>
+
+          <p>
+            CSS can be seen as the visual design of the webpage. It can be
+            applied to the framework of HTML in the same way interior design can
+            be applied to the structure of a building. CSS controls how the
+            components of page will look, such a color, size, shape. In the same
+            way, design features can be applied to a building, such as
+            wallpaper, carpet, or different kinds of utility designs. JavaScript
+            is involved in the function of a webpage, and user interactivity
+            such as filling out forms, calculations, real time updates, and
+            recording user data. This could be seen as the utility function of a
+            house, such as the electrical components, plumbing or opening,
+            closing and locking doors and windows.
+          </p>
+          <p>
+            So to put it all together, the HTML provides the framework for the
+            JavaScript to be able to function on eg. It provides the light
+            switch so the light can be turned off and on. CSS is the design of
+            the light switch, it make sure the light switch is placed in an
+            accessible area that is visible to the user and that it looks like a
+            recognizable light switch.
+          </p>
+
+          <h3>CONTROL FLOW, AND LOOPS</h3>
+          <p>
+            Control flow is an aspect of programing which dictates the operation
+            order of events. Relating that to our everyday life, when you do an
+            activity such as doing your laundry, there are several steps that
+            need to be done in order to complete this task. If you were do these
+            steps out of order, you would not successfully complete the task.
+            For example: if you folded or dried your laundry before you washed
+            it the end result would be wet unfolded laundry.
+          </p>
+
+          <p>
+            Looping is also an important aspect of programing in performing
+            tasks. A loop works by assessing a condition of an object or data.
+            If that data meets certain requirements, then a process is applied
+            to it/ a loop begins. If the data does not meet the criteria then
+            nothing is done and the loop/process ends. This is important because
+            if the criteria was not checked and the loop/process was set to 'on'
+            then the loop would infinitely perform leading to a stack overflow
+            (the program will crash). In our 'laundry analogy' the loop can be
+            seen as done in a cycle of washing. Eg. Each item of clothing must
+            be checked for conditions, eg. If it is dirty. If the clothing is
+            dirty then it will be put through the washing cycle, however if an
+            item of clothing is clean, then it will not be put through the
+            washing cycle. When there are no items of dirty clothing left, then
+            the washing cycle stops. If we did not check the status of the item
+            then all items of clothing would be continuously washed, and once
+            they had been put through the washing cycle, they would instantly be
+            put through the washing cycle again even if they were clean.
+          </p>
+
+          <h3>DOM</h3>
+          <p>
+            The DOM (Document Object Model) is the live representation of a
+            website. It has a hierarchical structure starting from broad
+            sections of the page which encompasses all of the elements, divided
+            into 'child' sections which contain more specific elements of a
+            page. It contains the features of HTML, CSS and JavaScript, and
+            entails how they interact with each other, and how all of the
+            elements interact with each other. An example of how you might
+            interact with the DOM is: a modal might become visible on the page
+            when you click a button, revealing a an element containing HTML
+            content that would otherwise be hidden.
+          </p>
+
+          <h3>ARRAYS AND OBJECTS</h3>
+          <p>Objects contain variables called properties.</p>
+          <pre><code>object = {
+              propertyOne: “variable1”
+              propertyTwo:”variable2”
+            }</code></pre>
+          <p>
+            When accessing an object data you need to call on the object and the
+            object property. Eg. If you called on an object property in the
+            console you would use the code:
+          </p>
+          <pre><code>Console.log(object.propertyOne)</code></pre>
+          <p>The console would then display:</p>
+          <pre><code>variable1</code></pre>
+          <p>If you called the entire object data you would use the code:</p>
+          <pre><code>Console.Log(object)</code></pre>
+          <p>Then all of the properties in object will be displayed.</p>
+
+          <p>
+            In contrast, the data in arrays are represented in numerical order
+            starting from 0:
+          </p>
+          <pre><code>Array[“variable1”, “variable2”, “variable3”]</code></pre>
+          <p>This translates to: Array[0,1,2]</p>
+          <p>
+            When accessing data from an array you need to call on the numerical
+            value.
+          </p>
+          <pre><code>Console.log(array[0])</code></pre>
+          <p>The console would display:</p>
+          <pre><code>Variable1</code></pre>
+
+          <p>
+            In Arrays, the variables should all represent the same kind of
+            variable, and the order is important. Where as in Objects, multiple
+            types of variables can be described (eg. Numerical or text values),
+            and different objects with the same property types can compared with
+            each other.
+          </p>
+
+          <h3>FUNCTIONS</h3>
+          <p>
+            A function is a reusable process that is applied when called upon in
+            the code. They can be either parameterized or parameterless. A
+            parameterized method can be applied to one or more variables to give
+            a defined outcome using the variable. We input the variables with
+            the corresponding space within the function brackets For example, we
+            could have a function that adds one variable to another, and then
+            displays the answer:
+          </p>
+
+          <pre><code>function functionName(variableA, variableB) 
+                        {
+          answer = variableA + variableB
+          console.log(answer)
+                        }</code></pre>
+          <p>When called upon:</p>
+          <pre><code>functionName(1,3)</code></pre>
+          <p>Console output:</p>
+          <pre><code>4</code></pre>
+          <p>
+            A parameterless function will contain empty brackets (unless bound
+            to an event where it will have none). This kind of function will
+            perform as task without any input. For example we could have a
+            function that displays “Hello” in the console when ever it is called
+            upon:
+          </p>
+
+          <pre><code>Function functionName(){
+          console.log(“Hello”)
+              }</code></pre>
+          <p>When called upon:</p>
+          <code>functionName()</code>
+          <p>Console output: <code>Hello</code></p>
+          <p>
+            Functions are useful for simplifying and organizing code when we
+            need to repeat an action, so instead of repeating the same code
+            multiple times, we can condense it into a function and just call
+            upon the function.
+          </p>
+        </div>
       </div>
       <!-- break-->
       <!-- break-->

@@ -5,228 +5,241 @@
 --coral: #ff8a5bff;
 --paradise-pink: #ea526fff; */
 
-
-
 /* Full size */
 
+body {
+  background-color: whitesmoke;
+  margin: 0%;
+}
 
-body{
-    background-color: whitesmoke;
-    margin: 0%;
+img {
+  max-width: 100%;
 }
 
 .headerMenu {
-    background-color: whitesmoke;
-    margin: 0px;
-    text-align: center;
-    padding: 8vh;
+  background-color: whitesmoke;
+  margin: 0px;
+  text-align: center;
+  padding: 8vh;
 }
 
 .headerDivide {
-    background-color: #343a40;
-    margin: 0px;
-    text-align: left;
-    padding: 1vh;
-    color: #fceadeff;
-    font-family: 'Dosis';
-    font-size: 100%;
-
+  background-color: #343a40;
+  margin: 0px;
+  text-align: left;
+  padding: 1vh;
+  color: #fceadeff;
+  font-family: "Dosis";
+  font-size: 100%;
 }
 
-.headerDivideMenu{
-    background-color: #343a40;
-    margin: 0px;
-    text-align: center;
-    padding: 1vh;
-    color: #fceadeff;
-    font-family: 'Dosis';
-    font-size: 100%;
+.headerDivideMenu {
+  background-color: #343a40;
+  margin: 0px;
+  text-align: center;
+  padding: 1vh;
+  color: #fceadeff;
+  font-family: "Dosis";
+  font-size: 100%;
 }
 
-.alignHeaderLinks
-{
-    display:flex;
+.alignHeaderLinks {
+  display: flex;
 }
 
-.headerLinkFormat{
-    text-align:center;
-    width: 25%;
-    
+.headerLinkFormat {
+  text-align: center;
+  width: 25%;
 }
 
-.headerMenuFont{
-    color: #fceadeff;
-    font-family: 'Dosis';
-    font-size: 100%;
-    text-decoration: none;
+.headerMenuFont {
+  color: #fceadeff;
+  font-family: "Dosis";
+  font-size: 100%;
+  text-decoration: none;
 }
 
-.alignMainLinks
-{
-    display:flex;
+.alignMainLinks {
+  display: flex;
 }
 
-.linkWidth
-{
-    text-align: center;
-    width: 50%;
-    margin: 3%;
-padding: 13vh;
-
+.linkWidth {
+  text-align: center;
+  width: 50%;
+  margin: 3%;
+  padding: 13vh;
 }
 
-.titleWidth
-{
-    text-align: center;
-    width: 15%;
-    margin: 3%;
-padding: 5vh;
-
+.titleWidth {
+  text-align: center;
+  width: 15%;
+  margin: 3%;
+  padding: 5vh;
 }
 
-.linkText
-{
-    color: white;
-    font-family: 'Alfa Slab One';
-    text-decoration: none;
-    font-size: 300%;
-    text-transform: capitalize;
+.linkText {
+  color: white;
+  font-family: "Alfa Slab One";
+  text-decoration: none;
+  font-size: 300%;
+
+  text-transform: capitalize;
 }
 
-.titleText
-{
-    color: white;
-    font-family: 'Alfa Slab One';
-    text-decoration: none;
-    font-size: 200%;
-    text-transform: capitalize;
+.titleText {
+  color: white;
+  font-family: "Alfa Slab One";
+  text-decoration: none;
+  font-size: 200%;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: capitalize;
 }
-.paragraphText{
-    color: #343a40;
-    font-family: 'Alfa Slab One';
-    font-size: 100%;
+.paragraphText {
+  color: #343a40;
+  font-family: "Dosis";
+  font-size: 150%;
+  padding: 4%;
 }
-
-#mainHeader{
-    text-decoration: none;
-    color: #343a40;
-    font-family: 'Alfa Slab One';
-    font-size: 200%;
+.birdPic {
+  width: 25vw;
+  border-radius: 50%;
 }
-
-
-
-#boxOne{
-    background-color: #25ced1ff;
-    
+.picAlign {
+  display: flex;
+  flex-wrap: wrap;
 }
-
-#boxTwo{
-    background-color: #f4e789;
+.halfWidthPic {
+  width: 50%;
 }
-
-#boxThree{
-    background-color: #ff8a5bff;
+.halfWidthPic-Center {
+  display: flex;
+  justify-content: center;
 }
-
-#boxFour{
-    background-color: #ea526fff;;
+#mainHeader {
+  text-decoration: none;
+  color: #343a40;
+  font-family: "Alfa Slab One";
+  font-size: 200%;
 }
 
-#boxFive{
-    background-color: #343a40;
+#boxOne {
+  background-color: #25ced1ff;
+}
+
+#boxTwo {
+  background-color: #f4e789;
+}
+
+#boxThree {
+  background-color: #ff8a5bff;
+}
+
+#boxFour {
+  background-color: #ea526fff;
+}
+
+#boxFive {
+  background-color: #343a40;
 }
 /* Tablet dimension - 768 X 1024*/
 @media only screen and (max-width: 1199px) {
-    * {
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
-            }
-        
-        :root {
-            min-width: 100vw;
-        }
-        
-        html {
-            min-width: 100vw;
-        }
-        
-        body {
-            min-width: 100vw;
-        }
-        .linkWidth
-        {
-            text-align: center;
-            width: 50%;
-            margin: 3%;
-        padding: 5vw;
-        
-}
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
 
-.linkText
-{
+  :root {
+    min-width: 100vw;
+  }
+
+  html {
+    min-width: 100vw;
+  }
+
+  body {
+    min-width: 100vw;
+  }
+  .titleWidth {
+    text-align: center;
+    width: 20%;
+    margin: 3%;
+    padding: 3%;
+  }
+  .linkWidth {
+    text-align: center;
+    width: 50%;
+    margin: 3%;
+    padding: 5vw;
+  }
+
+  .titleText {
+    font-size: 1em;
+  }
+  .linkText {
     color: white;
-    font-family: 'Alfa Slab One';
+    font-family: "Alfa Slab One";
     text-decoration: none;
     font-size: 5vw;
     text-transform: capitalize;
+  }
 }
 
 /* Phone dimensions - 320-576px  - 320x480*/
 
 @media only screen and (max-width: 576px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
 
-* {
-padding: 0;
-margin: 0;
-box-sizing: border-box;
-    }
-
-:root {
+  :root {
     min-width: 100vw;
-}
+  }
 
-html {
+  html {
     min-width: 100vw;
-}
+  }
 
-body {
+  body {
     min-width: 100vw;
-}
+  }
 
-.paragraphText{
+  .paragraphText {
     max-width: 100vw;
-}
+  }
 
-.linkText
-{
+  .linkText {
     color: white;
-    font-family: 'Alfa Slab One';
+    font-family: "Alfa Slab One";
     text-decoration: none;
     font-size: 5vw;
     text-transform: capitalize;
-}
+  }
 
-.linkWidth
-{
+  .linkWidth {
     text-align: center;
     width: 50%;
     margin: 3%;
-padding: 5vw;
+    padding: 5vw;
+  }
+  .alignMainNone {
+    display: inline;
+  }
 
-}
-.alignMainNone
-{
-    display:inline;
-}
-
-}
-.titleWidth
-{
+  .titleWidth {
     text-align: center;
     width: 90%;
     margin: 3%;
-padding: 5vh;
-
+    padding: 5vh;
+  }
+  .halfWidthPic {
+    width: 100%;
+  }
+  .birdPic {
+    width: 75vw;
+    border-radius: 50%;
+  }
 }
